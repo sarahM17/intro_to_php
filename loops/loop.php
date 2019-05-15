@@ -14,37 +14,45 @@
 <div class="container">
     <div class="row d-flex flex-column offset-md-4 justify-content-center ">
         <h1>Exercise superglobals</h1>
-    </div>      
-    <div class="table table-dark table-1">
+    </div>
+    <div class="table table-bordered table-dark justify-content-center">
         <?php
         $multiarray = array (
 
-            array("name"=>"Game of thrones", "rating"=>"5"),
-            array("name"=>"Stranger things", "rating"=>"6"),
-            array("name"=>"The big bang theorie", "rating"=>"8"),
-            array("name"=>"Bumba", "rating"=>"4"),
-            array("name"=>"Breaking bad", "rating"=>"7"),
-            array("name"=>"La casa de papel", "rating"=>"3"),
-            array("name"=>"The walking dead", "rating"=>"2"),
-            array("name"=>"Glow", "rating"=>"9"),
+            array("Game of thrones", "5"),
+            array("Stranger things", "6"),
+            array("The big bang theorie", "8"),
+            array("Bumba", "4"),
+            array("Breaking bad", "7"),
+            array("La casa de papel", "3"),
+            array("The walking dead", "2"),
+            array("Glow", "9"),
         );
-        //$count = 0;
+        $count = 0;
 
         foreach ($multiarray as $arrays){
-            //$count++;
+            $count++;
             echo "<table>" ;
-            
 
-            echo "<span>table</span>";
+
+            echo "<span>Table $count</span>";
+            echo "<thead>";
+
+                    echo "<td>Name</td>";
+                    echo "<td>Rating</td>";
+
+
+            echo "</thead>";
+            echo "<tbody>";
             echo "<tr>";
-            foreach ($arrays as $names => $ratings){
-
-                echo "<th>$names</th>";
-                echo "<td>$ratings</td>";
+            foreach ($arrays as $names /*=> $ratings*/){
+                echo "<td>$names</td>";
+                //echo "<td>$ratings</td>";
 
             }
-            echo "</tr>";                                            
-            echo "</table>";
+            echo "</tr>";
+            echo "</tbody>";
+            echo "</table><br>";
         }
         ?>
     </div>
