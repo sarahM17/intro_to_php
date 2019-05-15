@@ -1,0 +1,10 @@
+body {
+    background-color: cadetblue;
+}
+
+.row1 {
+    background-color: cadetblue;
+    border: 2px solid whitesmoke;
+    color: antiquewhite;
+    margin: 40px 0px;
+}
