@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41a5e04c-f07c-4aa4-83a4-8210d3c3ea44" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loops/loop.php" beforeDir="false" afterPath="$PROJECT_DIR$/loops/loop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loops/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/loops/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="41a5e04c-f07c-4aa4-83a4-8210d3c3ea44" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/loops/loop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="134">
+              <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -145,12 +141,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557906549155</updated>
-      <workItem from="1557906550616" duration="18908000" />
+      <workItem from="1557906550616" duration="19561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18908000" />
+    <option name="totallyTimeSpent" value="19561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1600" height="875" extended-state="6" />
@@ -218,8 +214,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loops/loop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        <state relative-caret-position="134">
+          <caret line="31" column="81" selection-start-line="31" selection-start-column="81" selection-end-line="31" selection-end-column="81" />
         </state>
       </provider>
     </entry>
