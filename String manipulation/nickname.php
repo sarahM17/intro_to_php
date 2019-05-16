@@ -30,6 +30,7 @@
                 }
 
                 $i = array_map("show_nickname", $_POST['item']);
+                $characters = array_merge(range('A','Z'), range('a','z'), range('0','9'));
 
                 echo '<ul>';
                 foreach($i as $item){
@@ -37,6 +38,10 @@
                     echo '<li>'.strrev($item).'</li>';
                     echo '<li>'.ucwords($item).'</li>';
                     echo '<li>'.strrev($item).'</li>';
+                    echo '<li>'.str_pad($item, 10, "--", STR_PAD_BOTH).'</li>';
+                    echo '<li>'.str_pad($item, 6, "x", STR_PAD_LEFT).'</li>';
+                    echo '<li>'.str_pad($item, 9, "$characters", STR_PAD_LEFT).'</li>';
+                    echo '<li>'.str_pad($item, 10, "[$characters]", STR_PAD_LEFT).'</li>';
                 }
 
                 echo '</ul>'; ?>
